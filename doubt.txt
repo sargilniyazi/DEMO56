@@ -1,0 +1,21 @@
+//Q 8 wap to print prime numbers between 2 to 20
+
+package assignment3;
+
+public class Primerange {
+	int j n;
+	public static void main(String[] args) {
+		for (int n= 2;n<=20;n++)
+		{
+			for (int j =2;j<=20;j++)
+			{
+				if(n%j==0)
+					break;
+			}
+		}
+		if(j==n)
+			System.out.println(" "+n);
+
+	}
+
+}
